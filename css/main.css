@@ -146,7 +146,7 @@ span {
     background: radial-gradient(var(--clr-inner, limegreen), var(--clr-outer, purple));
     padding: 3em;
     border-radius: 1em;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     text-align: center;
 }
 
@@ -155,4 +155,31 @@ span {
     line-height: 1.1;
     color: #fff;
     text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.product__image {
+    margin: -5em 0 0 0;
+}
+
+.hero {
+    --clr-accent: #faa700;
+}
+
+.shoe-red {
+    --clr-inner: red;
+    --clr-inner: orange;
+    /* --clr-outer: orange; */
+    --clr-accent: #a1173c;
+}
+
+.shoe-white {
+    --clr-inner: #fce4b3;
+    --clr-inner: #eac886;
+    --clr-accent: #2f4858;
+}
+
+.shoe-blue {
+    --clr-inner: #6dd5ed;
+    --clr-inner: #2193b0;
+    --clr-accent: #008951;
 }
