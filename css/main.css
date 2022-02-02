@@ -105,7 +105,8 @@ span {
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position-y: center center;
+    background-position: center;
+    /* background-position-y: center center; */
 }
 
 .featured {
